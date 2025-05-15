@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "95a481f25caaf7b3",
+    "type": "split",
+    "children": [
+      {
+        "id": "664c74355ff036e8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5f3510dc51a016d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00_Inbox_Clip/MySQLのSlaveのMASTER_CONNECT_RETRYはデフォルトより短くした方が良いんじゃなイカ.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MySQLのSlaveのMASTER_CONNECT_RETRYはデフォルトより短くした方が良いんじゃなイカ"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cd09ee40d94e7f16",
+    "type": "split",
+    "children": [
+      {
+        "id": "54db9214fa30a73a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a617bd0a921c1f7f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "ファイルエクスプローラ"
+            }
+          },
+          {
+            "id": "28b6a0a7f49d455d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "検索"
+            }
+          },
+          {
+            "id": "b9622205f9890e76",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "ブックマーク"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 597.5
+  },
+  "right": {
+    "id": "a98786421840978c",
+    "type": "split",
+    "children": [
+      {
+        "id": "ab2cb814a82a3123",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f903196b0b850daa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "00_Inbox_Clip/MySQLのSlaveのMASTER_CONNECT_RETRYはデフォルトより短くした方が良いんじゃなイカ.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "MySQLのSlaveのMASTER_CONNECT_RETRYはデフォルトより短くした方が良いんじゃなイカへのバックリンク"
+            }
+          },
+          {
+            "id": "f63fd4ae823ce9b9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "00_Inbox_Clip/MySQLのSlaveのMASTER_CONNECT_RETRYはデフォルトより短くした方が良いんじゃなイカ.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "MySQLのSlaveのMASTER_CONNECT_RETRYはデフォルトより短くした方が良いんじゃなイカからのアウトゴーイングリンク"
+            }
+          },
+          {
+            "id": "d16dc6b2f5683cba",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "タグ"
+            }
+          },
+          {
+            "id": "d8a9386a109d41e4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "00_Inbox_Clip/MySQLのSlaveのMASTER_CONNECT_RETRYはデフォルトより短くした方が良いんじゃなイカ.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "MySQLのSlaveのMASTER_CONNECT_RETRYはデフォルトより短くした方が良いんじゃなイカのアウトライン"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "canvas:新規キャンバスを作成": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false
+    }
+  },
+  "active": "5f3510dc51a016d6",
+  "lastOpenFiles": [
+    "00_Inbox_Clip/MySQLのクエリキャッシュについて詳しくまとめてみた。.md",
+    "00_Inbox_Clip/MySQLのSlaveのMASTER_CONNECT_RETRYはデフォルトより短くした方が良いんじゃなイカ.md",
+    "00_Inbox_Clip/これはすごい！mariadb10 でマルチソースレプリケーションでデータベース統合！.md",
+    "00_Inbox_Clip/同期・非同期処理をざっくり俯瞰.md",
+    "00_Inbox_Clip/私のシンプルCursor活用方法｜ニケちゃん.md",
+    "00_Inbox_Clip/SQLServerのDBをGit管理・デプロイを自動化してみようの会.md",
+    "00_Inbox_Clip/SQL Server へ他のPCからも接続できるようにする.md",
+    "00_Inbox_Clip/Dockerによる開発環境構築のための概念理解と方法解説.md",
+    "00_Inbox_Clip/Dockerについてなるべくわかりやすく説明する.md",
+    "00_Inbox_Clip/Dockerのコンテナ内にあるファイルをホストにコピーする方法.md",
+    "00_Inbox_Clip/【初心者向け・図解】Docker Composeとは？Dockerとの違いを現役エンジニアがわかりやすく解説.md",
+    "00_Inbox_Clip/【理論編】HTTPS通信の中身を見て、どのようにしてセキュアな通信が確立されるかを理解する.md",
+    "00_Inbox_Clip/やさしいMCP入門.md",
+    "01_Stock/DNSサーバとは｜「分かりそう」で「分からない」でも「分かった」気になれるIT用語辞典.md",
+    "01_Stock/DNSとは？今さら聞けない基礎知識や仕組みを解説  トークネット・お役立ち情報  TOHKnet 東北電力グループ 株式会社トークネット.md",
+    "01_Stock/DNSサーバとは？設定と確認方法を解説.md",
+    "01_Stock/BtoB向けECサイト｜構築方法や実例をご紹介  Blog  メタフェイズ  UIUXデザインでビジネスの成長に貢献するWeb制作会社.md",
+    "01_Stock/単なるメモから的資産へ_Obsidian_in_Cursorで構築する知的生産システム_松濤Vimmer.md",
+    "01_Stock/最新版EC業界とは？拡大する市場規模や売上ランキング、今後の課題も網羅｜BiNDec FEED.md",
+    "01_Stock/権威DNSサーバとキャッシュDNSサーバの違い.md",
+    "01_Stock/メモ管理は Obsidian in  Cursor が最強｜松濤Vimmer.md",
+    "01_Stock/サーバーの負荷分散を担うDNSラウンドロビンとロードバランサーの仕組み.md",
+    "01_Stock/Perplexity.md",
+    "01_Stock/NVIDIA、Amazon（AWS）、AMDがサウジHUMAINとAI推進で提携　サウジは米国に6000億ドル投資.md",
+    "01_Stock/DNSとはなにかをわかりやすく解説_DNSサーバーの仕組みや役割_Shopify日本.md",
+    "01_Stock/DNSとは？インターネットを支える仕組み - ルートサーバーとキャッシュサーバーについても解説.md",
+    "無題のファイル.canvas",
+    "無題のファイル 1.canvas",
+    "@01_Stock",
+    "-p",
+    "tag_rule",
+    "01_Stock",
+    "00_Inbox_Clip",
+    "Clippings"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "collapse-filter": false,
+  "search": "tag:#dns  ",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "tag:#dns ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.5546875,
+  "lineSizeMultiplier": 1.325,
+  "collapse-forces": false,
+  "centerStrength": 0.510416666666667,
+  "repelStrength": 9.89583333333333,
+  "linkStrength": 1,
+  "linkDistance": 238,
+  "scale": 1.4019828977761093,
+  "close": false
+}

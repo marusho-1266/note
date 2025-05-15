@@ -4,12 +4,11 @@
 
 ```
 /
-├── draft/                        # 素案記事
-├── editing/                      # 校正中記事
-├── contribution/                 # 寄稿済記事
-├── inbox/                        # アイディア
-├── knowledge/                    # 雑多メモ
-├── Clippings/                    # 情報収集
+├── 00_Inbox_Clip/                # Inbox
+├── 01_Stock/                     # 整理後資料
+├── 02_draft/                     # 素案記事
+├── 03_editing/                   # 校正中記事
+├── 04_contribution/              # 寄稿済記事
 └── .cursor/                      # Cursor設定
 ```
 
