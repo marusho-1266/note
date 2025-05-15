@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_Inbox_Clip/MySQLのSlaveのMASTER_CONNECT_RETRYはデフォルトより短くした方が良いんじゃなイカ.md",
+                "file": "00_Inbox_Clip/Pythonでデータ可視化アプリを構築できる「Streamlit」の解説書が2カ月連続首位に／今月のおすすめ書籍は、個人開発で頑張るクリエイターのアツい実践エピソード集！【技術の泉売れ筋ランキング】.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MySQLのSlaveのMASTER_CONNECT_RETRYはデフォルトより短くした方が良いんじゃなイカ"
+              "title": "Pythonでデータ可視化アプリを構築できる「Streamlit」の解説書が2カ月連続首位に／今月のおすすめ書籍は、個人開発で頑張るクリエイターのアツい実践エピソード集！【技術の泉売れ筋ランキング】"
             }
           }
         ]
@@ -170,6 +170,13 @@
   },
   "active": "5f3510dc51a016d6",
   "lastOpenFiles": [
+    "00_Inbox_Clip/「Notion AI for Work」発表　AI強化で文字起こし・横断検索・リサーチ.md",
+    "00_Inbox_Clip/Pythonでデータ可視化アプリを構築できる「Streamlit」の解説書が2カ月連続首位に／今月のおすすめ書籍は、個人開発で頑張るクリエイターのアツい実践エピソード集！【技術の泉売れ筋ランキング】.md",
+    "00_Inbox_Clip/プルリクエストの一連の流れについて.md",
+    "00_Inbox_Clip/MCPやAIエージェントに必須の「LLMの外部通信・連携」におけるセキュリティ観点.md",
+    "00_Inbox_Clip/【Cursor】並列実装？モノレポ化まで？Cursor v0.50 の 5 つのアップデートを紹介したい.md",
+    "00_Inbox_Clip/（続）Cursorで「詳細設計→ガントチャート草稿」作成がめっちゃ楽になった話.md",
+    "00_Inbox_Clip/Cursorで要件定義がエラいスムーズになった話.md",
     "00_Inbox_Clip/MySQLのクエリキャッシュについて詳しくまとめてみた。.md",
     "00_Inbox_Clip/MySQLのSlaveのMASTER_CONNECT_RETRYはデフォルトより短くした方が良いんじゃなイカ.md",
     "00_Inbox_Clip/これはすごい！mariadb10 でマルチソースレプリケーションでデータベース統合！.md",
@@ -189,13 +196,6 @@
     "01_Stock/BtoB向けECサイト｜構築方法や実例をご紹介  Blog  メタフェイズ  UIUXデザインでビジネスの成長に貢献するWeb制作会社.md",
     "01_Stock/単なるメモから的資産へ_Obsidian_in_Cursorで構築する知的生産システム_松濤Vimmer.md",
     "01_Stock/最新版EC業界とは？拡大する市場規模や売上ランキング、今後の課題も網羅｜BiNDec FEED.md",
-    "01_Stock/権威DNSサーバとキャッシュDNSサーバの違い.md",
-    "01_Stock/メモ管理は Obsidian in  Cursor が最強｜松濤Vimmer.md",
-    "01_Stock/サーバーの負荷分散を担うDNSラウンドロビンとロードバランサーの仕組み.md",
-    "01_Stock/Perplexity.md",
-    "01_Stock/NVIDIA、Amazon（AWS）、AMDがサウジHUMAINとAI推進で提携　サウジは米国に6000億ドル投資.md",
-    "01_Stock/DNSとはなにかをわかりやすく解説_DNSサーバーの仕組みや役割_Shopify日本.md",
-    "01_Stock/DNSとは？インターネットを支える仕組み - ルートサーバーとキャッシュサーバーについても解説.md",
     "無題のファイル.canvas",
     "無題のファイル 1.canvas",
     "@01_Stock",
