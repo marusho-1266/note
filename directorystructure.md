@@ -5,10 +5,10 @@
 ```
 /
 ├── 00_Inbox_Clip/                # Inbox
-├── 01_Stock/                     # 整理後資料
-├── 02_draft/                     # 素案記事
-├── 03_editing/                   # 校正中記事
-├── 04_contribution/              # 寄稿済記事
+├── 20_Stock/                     # 整理後資料
+├── 30_draft/                     # 素案記事
+├── 40_editing/                   # 校正中記事
+├── 50_contribution/              # 寄稿済記事
 └── .cursor/                      # Cursor設定
 ```
 
