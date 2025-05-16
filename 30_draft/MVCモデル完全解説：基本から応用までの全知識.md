@@ -6,7 +6,7 @@
 
 MVCは「Model-View-Controller」の頭文字を取った言葉で、アプリケーションのコードを役割ごとに3つの層に分割する設計手法だ。
 
-![MVCの基本構造](画像URL)
+![MVCの基本構造](mvc_basic_structure.svg)
 
 ### Model（モデル）
 

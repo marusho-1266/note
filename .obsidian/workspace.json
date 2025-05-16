@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "664c74355ff036e8",
+        "id": "2ca4c8128ada2f9b",
         "type": "tabs",
         "children": [
           {
-            "id": "5f3510dc51a016d6",
+            "id": "64cafa722feca782",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "30_draft/MVCモデル完全解説：基本から応用までの全知識.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -168,10 +168,17 @@
       "command-palette:コマンドパレットを開く": false
     }
   },
-  "active": "a617bd0a921c1f7f",
+  "active": "64cafa722feca782",
   "lastOpenFiles": [
-    "画像URL.md",
+    "mvc_basic_structure.svg",
+    "30_draft/mvc_basic_structure.svg",
     "30_draft/MVCモデル完全解説：基本から応用までの全知識.md",
+    "30_draft/2025-05-16_10h43_31.png",
+    "30_draft/2025-05-16_10h41_15.png",
+    "30_draft/2025-05-16_10h38_08.png",
+    "30_draft/mvc_with_service_layer.svg",
+    "30_draft/mvc_flow_diagram.svg",
+    "画像URL.md",
     "20_Stock/MVCの本質的メリット分析.md",
     "100_cursor/prompt.md",
     "20_Stock/MVCモデルのメリットとデメリット解説.md",
@@ -198,7 +205,6 @@
     "00_Inbox_Clip/個人用備忘録：MVCモデルとは？その基本構造と役割をわかりやすく整理してみた.md",
     "00_Inbox_Clip/MVCモデルとは？役割やメリット・デメリットを分かりやすく解説！  GeeklyMedia(ギークリーメディア)  Geekly（ギークリー） IT・Web・ゲーム業界専門の人材紹介会社.md",
     "00_Inbox_Clip/超初心者講座～MVCモデルについて～.md",
-    "00_Inbox_Clip/MVCモデルとは｜「分かりそう」で「分からない」でも「分かった」気になれるIT用語辞典.md",
     "50_contribution",
     "40_editing",
     "30_draft",
