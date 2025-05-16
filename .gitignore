@@ -1,15 +1,1 @@
 # Keep empty logs/ directory.
-/00_Inbox_Clip/*
-!/00_Inbox_Clip/.gitkeep
-
-/20_Stock/*
-!/20_Stock/.gitkeep
-
-/30_draft/*
-!/30_draft/.gitkeep
-
-/40_editing/*
-!/40_editing/.gitkeep
-
-/50_contribution/*
-!/50_contribution/.gitkeep
