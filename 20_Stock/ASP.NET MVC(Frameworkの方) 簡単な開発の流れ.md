@@ -1,17 +1,23 @@
 ---
 title: "ASP.NET MVC(Frameworkの方) 簡単な開発の流れ"
+author: "masayakomono"
 source: "https://qiita.com/masayakomono/items/7d8b4ec793d23a7d74dd"
-author:
-  - "[[Qiita]]"
 published: 2023-10-05
-created: 2025-05-16
-description: "ASP.NET MVC(Frameworkの方) 簡単な開発手順まとめ前提として、ChatGPT使いながらベースを書いたため誤りがあったら申し訳ございません。開発にはVisual Studio …"
+created: 2024-05-16
 tags:
-  - "clippings #inbox"
+  - programming
+  - dotnet
+  - csharp
+  - webdev
+  - aspnet
+  - mvc
+  - framework
+  - tutorial
+  - article
+  - basic
 ---
-![](https://relay-dsp.ad-m.asia/dmp/sync/bizmatrix?pid=c3ed207b574cf11376&d=x18o8hduaj&uid=)
 
-この記事は最終更新日から1年以上が経過しています。
+# ASP.NET MVC(Frameworkの方) 簡単な開発の流れ
 
 ## ASP.NET MVC(Frameworkの方) 簡単な開発手順まとめ
 
@@ -204,19 +210,4 @@ FilterConfig.cs は ASP.NET MVC プロジェクトにおいて、グローバル
 4. **global.asax.cs への追記:**
 	- `global.asax.cs` ファイルを開き、Application\_Start メソッド内に以下の行を追加します。
 
-実際はCSSやJSを書いたりまだまだやることはありますが、おおよそこの流れで開発すれば一通りの物が出来上がると思います。
-
-[0](https://qiita.com/masayakomono/items/#comments)
-
-新規登録して、もっと便利にQiitaを使ってみよう
-
-1. あなたにマッチした記事をお届けします
-2. 便利な情報をあとで効率的に読み返せます
-3. ダークテーマを利用できます
-[ログインすると使える機能について](https://help.qiita.com/ja/articles/qiita-login-user)
-
-[新規登録](https://qiita.com/signup?callback_action=login_or_signup&redirect_to=%2Fmasayakomono%2Fitems%2F7d8b4ec793d23a7d74dd&realm=qiita) [ログイン](https://qiita.com/login?callback_action=login_or_signup&redirect_to=%2Fmasayakomono%2Fitems%2F7d8b4ec793d23a7d74dd&realm=qiita)
-
-[7](https://qiita.com/masayakomono/items/7d8b4ec793d23a7d74dd/likers)
-
-6
+実際はCSSやJSを書いたりまだまだやることはありますが、おおよそこの流れで開発すれば一通りの物が出来上がると思います。 

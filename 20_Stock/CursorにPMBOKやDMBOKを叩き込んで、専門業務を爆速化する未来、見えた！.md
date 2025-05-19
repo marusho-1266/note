@@ -1,17 +1,22 @@
 ---
 title: "CursorにPMBOKやDMBOKを叩き込んで、専門業務を爆速化する未来、見えた！"
+author: "channnnsm"
 source: "https://zenn.dev/channnnsm/articles/215208b067f430"
-author:
-  - "[[Zenn]]"
 published: 2025-05-08
-created: 2025-05-16
-description:
+created: 2024-05-16
 tags:
-  - "clippings #inbox"
+  - ai
+  - cursor
+  - pmbok
+  - dmbok
+  - productivity
+  - knowledge
+  - tool
+  - article
+  - practical
 ---
-190
 
-96[idea](https://zenn.dev/tech-or-idea)
+# CursorにPMBOKやDMBOKを叩き込んで、専門業務を爆速化する未来、見えた！
 
 ## はじめに
 
@@ -132,14 +137,4 @@ PMBOKやDMBOKを例に出しましたが、この「Cursor × 専門知識体系
 
 私は最近新しくデータマネジメントに関する業務に携わっています。分厚いDMBOKを辞書がてら、学びながらあれこれ試行錯誤していますが、学び方自体をアップデートする良い機会だと思っています。
 
-従来なら本を読んで時間をかけて自分の血肉に変えていくプロセスしかありませんでしたが、今のAIネイティブの時代、抜本的に変える必要があるなぁと。壁打ちの試行数や検証回数によって、これまで以上に爆速で知識が体系化されている実感もあるため、35歳で未経験の領域ですが、楽しみながら一つずつ身につけていきたいなと思います！
-
-190
-
-96
-
-### Discussion
-
-![](https://static.zenn.studio/images/drawing/discussion.png)
-
-ログインするとコメントできます
+従来なら本を読んで時間をかけて自分の血肉に変えていくプロセスしかありませんでしたが、今のAIネイティブの時代、抜本的に変える必要があるなぁと。壁打ちの試行数や検証回数によって、これまで以上に爆速で知識が体系化されている実感もあるため、35歳で未経験の領域ですが、楽しみながら一つずつ身につけていきたいなと思います！ 

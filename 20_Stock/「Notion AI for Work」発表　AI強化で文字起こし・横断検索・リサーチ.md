@@ -1,14 +1,19 @@
 ---
 title: "「Notion AI for Work」発表　AI強化で文字起こし・横断検索・リサーチ"
+author: "株式会社インプレス"
 source: "https://www.watch.impress.co.jp/docs/news/2013659.html"
-author:
-  - "[[株式会社インプレス]]"
 published: 2025-05-13
 created: 2025-05-15
-description: "コラボレーションツールの「Notion」は、5月13日にビジネス向けの新機能を統合したAIワークスペース「Notion AI for Work」を発表した。従来はアドオンという形で提供されていたNotion AIが、ビジネスプランおよびエンタープライズプランに標準で統合される。あわせて、ビジネスプランの価格は、月額15ドルから20ドルへと改定される。"
 tags:
-  - "clippings #inbox"
+  - tool
+  - ai
+  - productivity
+  - news
+  - business
 ---
+
+# 「Notion AI for Work」発表　AI強化で文字起こし・横断検索・リサーチ
+
 2025年5月13日 22:00
 
 [![](https://asset.watch.impress.co.jp/img/ipw/docs/2013/659/n00_s.jpg)](https://www.watch.impress.co.jp/img/ipw/docs/2013/659/html/n00_o.jpg.html)
@@ -17,7 +22,7 @@ Notion Labs Japan ソリューションエンジニア 早川氏
 
 コラボレーションツールの「Notion」は、5月13日にビジネス向けの新機能を統合したAIワークスペース「Notion AI for Work」を発表した。従来はアドオンという形で提供されていたNotion AIが、ビジネスプランおよびエンタープライズプランに標準で統合される。あわせて、ビジネスプランの価格は、月額15ドルから20ドルへと改定される。
 
-開発背景には、企業におけるSaaSやAIツールの乱立による「情報の断片化」や「高コスト化」がある。日常業務で利用するソフトウェアが増えるほど、柔軟性や生産性に影響を及ぼすほか、AIツールの普及によって、こうした“散乱”がさらに加速していると指摘。Notionでは、この問題を解消するため、Notion AIを組み込んだ統合型ワークスペースを提供する。
+開発背景には、企業におけるSaaSやAIツールの乱立による「情報の断片化」や「高コスト化」がある。日常業務で利用するソフトウェアが増えるほど、柔軟性や生産性に影響を及ぼすほか、AIツールの普及によって、こうした"散乱"がさらに加速していると指摘。Notionでは、この問題を解消するため、Notion AIを組み込んだ統合型ワークスペースを提供する。
 
 [![](https://asset.watch.impress.co.jp/img/ipw/docs/2013/659/s01_s.jpg)](https://www.watch.impress.co.jp/img/ipw/docs/2013/659/html/s01_o.jpg.html)
 
@@ -75,4 +80,4 @@ Notion AI for Workでは、Microsoft TeamsやMicrosoft SharePoint、Slack、Goog
 
 [![](https://asset.watch.impress.co.jp/img/ipw/docs/2013/659/n11_s.jpg)](https://www.watch.impress.co.jp/img/ipw/docs/2013/659/html/n11_o.jpg.html)
 
-Notion Labs Japan ジェネラルマネージャー 西 勝清氏
+Notion Labs Japan ジェネラルマネージャー 西 勝清氏 

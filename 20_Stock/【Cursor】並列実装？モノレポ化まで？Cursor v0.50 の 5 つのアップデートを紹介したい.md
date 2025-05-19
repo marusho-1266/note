@@ -1,19 +1,18 @@
 ---
 title: "【Cursor】並列実装？モノレポ化まで？Cursor v0.50 の 5 つのアップデートを紹介したい"
+author: "tetsuro_b"
 source: "https://zenn.dev/kikagaku/articles/26c6d5e37ffccb"
-author:
-  - "[[Zenn]]"
 published: 2025-05-11
 created: 2025-05-15
-description:
 tags:
-  - "clippings #inbox"
+  - cursor
+  - ai-tools
+  - article
+  - practical
+  - programming
 ---
-[株式会社キカガク](https://zenn.dev/p/kikagaku) [Publicationへの投稿](https://zenn.dev/faq#what-is-publication)
 
-113
-
-25[tech](https://zenn.dev/tech-or-idea)
+# 【Cursor】並列実装？モノレポ化まで？Cursor v0.50 の 5 つのアップデートを紹介したい
 
 こんにちは。  
 株式会社キカガクの [@tetsuro\_b](https://x.com/tetsuro_b) です。
@@ -197,30 +196,4 @@ Agent モードでは行数が多すぎてそもそもファイル全体を読�
 
 対して `command + K` では丁寧に **１箇所ずつ編集を行ったように見えたものの約半分の時間である 71 秒で終わりました！！**
 
-変更範囲が単一ファイルに閉じる修正や実装であれば、今後は `command + K` が大活躍すること間違いなしです！
-
-## その他にもアップデートは盛りだくさん！
-
-Cursor v0.50 のアップデート内容が膨大すぎて、この記事では紹介しきれない内容もたくさんあります。  
-ブラウザの日本語翻訳するだけでも普通に理解できるくらいわかりやすくまとまっているのでぜひ公式の Changelog の一読をおすすめします！
-
-- すべてのモデルの使用はリクエストベースの料金に統合
-- すべてのトップモデルにMaxモードを搭載
-- Agent による長いファイルの高速編集
-- チャットをマークダウンファイルでエクスポート可能
-- チャットを複製し新しい会話を開始可能
-- MCP を Tool 単位で ON/OFF が可能
-
-## 最後に（宣伝）
-
-わたしの X アカウントでは Cursor の活用方法など AI 駆動開発メインで日々情報発信しております！ぜひフォローおねがいします！
-
----
-
-また、株式会社キカガクでは組織全体で Cursor Rules の育成及び活用に積極的に取り組んでいます。
-
-AI 駆動開発に興味のある方、自信のある方はぜひ「 [求人一覧](https://findy-code.io/companies/958/jobs) 」のぞいてみてください！
-
-113
-
-25
+変更範囲が単一ファイルに閉じる修正や実装であれば、今後は `command + K` が大活躍すること間違いなしです！ 

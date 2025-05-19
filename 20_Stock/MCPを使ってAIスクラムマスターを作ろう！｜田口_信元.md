@@ -1,21 +1,15 @@
 ---
-title: "MCPを使ってAIスクラムマスターを作ろう！｜田口 信元"
+title: "MCPを使ってAIスクラムマスターを作ろう！"
+author: "田口 信元"
 source: "https://note.com/guchey/n/nee276b7d1c51"
-author:
-  - "[[note（ノート）]]"
-published: 2025-05-16
 created: 2025-05-19
-description: "Ubie株式会社でプロダクトマネージャー（PdM）を務めている、田口（@guchey）です。  弊社では、Cursor×MCPの活用の熱気が一段落し、その効果を実感しつつ運用のフェーズに入ってきています。  今回は、具体的な活用事例として、「AIスクラムマスター」のプロンプトをご紹介します。JIRAやSlackでMCPを有効にしている方は、ぜひ試してみてください。   システムプロンプト  # AIスクラムマスター システムプロンプト## あなたの役割 (Role)あなたは、経験豊富で献身的なAIスクラムマスターです。## あなたの目的 (Objective)あなたの主な"
-tags:
-  - "clippings #inbox"
+published: 2025-05-16
+tags: #mcp #ai-tools #cursor #agile #productivity #article
 ---
-![見出し画像](https://assets.st-note.com/production/uploads/images/190303077/rectangle_large_type_2_9af9087201222565eb892f171052a8c7.png?width=1200)
 
-## MCPを使ってAIスクラムマスターを作ろう！
+# MCPを使ってAIスクラムマスターを作ろう！
 
-[田口 信元](https://note.com/guchey)
-
-Ubie株式会社でプロダクトマネージャー（PdM）を務めている、田口（ [@guchey](https://x.com/ShingenTaguchi) ）です。
+Ubie株式会社でプロダクトマネージャー（PdM）を務めている、田口（[@guchey](https://x.com/ShingenTaguchi)）です。
 
 弊社では、Cursor×MCPの活用の熱気が一段落し、その効果を実感しつつ運用のフェーズに入ってきています。
 
@@ -102,10 +96,6 @@ Ubie株式会社でプロダクトマネージャー（PdM）を務めている�
 
 このプロンプトをCursorに設定すると、AIスクラムマスターは単なる進行確認を超えて、チームを積極的に支援するような発言をしてくれるようになります。例えば、日々のスタンドアップやプランニングで、より本質的な議論を促したり、潜在的な課題に気づかせてくれたりするでしょう。
 
-![画像](https://assets.st-note.com/img/1747359129-pYxBUnAofk4C5vT7h8cLGDib.png)
-
-![画像](https://assets.st-note.com/img/1747359134-ErBFjCUhWAstPZ3aXqo7Qe12.png)
-
 単なる進行確認を超えてチームを支援する発言をしてくれる
 
 ### Cursor使ってない人も恩恵を受けられるように
@@ -114,24 +104,12 @@ CursorでのAIスクラムマスター活用は非常に強力なのですが、
 
 そこでUbieでは、MCPクライアントの機能を持ったSlack Botを内製しました。このBotはSlackのスタンプ一つで簡単に起動できるように設計されており、特別な環境構築は一切不要です。これによりSlackを使える人なら誰でも、AIスクラムマスターのサポートを手軽に受けられるようになりました。
 
-![画像](https://assets.st-note.com/img/1747359514-rUPnOSapWLI0s54ljkZAfg7F.png?width=1200)
-
 SlackBot as AIスクラムマスターとの会話
-
-![画像](https://assets.st-note.com/img/1747359772-5HSjhsimXxIoN8krMCKytpnz.png?width=1200)
 
 SlackBot as AIスクラムマスターの設定画面
 
 Slack Botの導入は、社内で非常に好評でした。これまで環境構築の壁を感じていたメンバーにもAIスクラムマスターの力が届き、全体の生産性向上に貢献している感覚があります。  
 客観的にスクラムチームの状況に関して指摘をもらえたり、Slackのやりとりの中でボールとして落ちてそうな部分や、PBIの種になりそうなアイデアを拾ってくれる点が特に好評なポイントのようです。
-
-![画像](https://assets.st-note.com/img/1747363598-mY80PcwkpvexN6lOQ3UZRoLi.png?width=1200)
-
-![画像](https://assets.st-note.com/img/1747360269-6TSwmgcBCheaOPRtsMd0joz1.png)
-
-![画像](https://assets.st-note.com/img/1747360274-PRtZyxeIhE5lnj1Jfimo76dA.png?width=1200)
-
-![画像](https://assets.st-note.com/img/1747368648-Mm6JXhzPsxbCHDRj5pue4rIB.png?width=1200)
 
 AIスクラムマスターは便利ですが、代替できるのはMCPでアクセスできるデータ化されている部分のみです。AIに与えられるデータを最大化する会社としての取り組みが重要になってきます。  
 また、人間のスクラムマスターにもデータになってないシグナルをもとにチームを支援する役割は残るでしょう。
@@ -146,20 +124,4 @@ AIスクラムマスターは便利ですが、代替できるのはMCPでアク
 Cursorがあれば、 **「誰でも」「いつも使っているツールから」「気軽に生成AIの恩恵を受けられる」** そんなプログラムを作ってみるハードル自体が下がっています。  
 生成AIの浸透が進みにくくなってきたときのヒントになると幸いです。
 
-その第一歩として、今回ご紹介した「AIスクラムマスター」、ぜひあなたのチームでも試してみてはいかがでしょうか？きっと、チームの新しい可能性を引き出してくれるはずですよ。
-
-## 最後に
-
-今後も生成AI関連の情報を発信するのでよろしければぜひフォローお願いします！
-
-> AIスクラムマスター作りました。最初はCursorでやってたけど最終的にはSlackBotになった。  
->   
-> MCPを使ってAIスクラムマスターを作ろう！｜田口 信元 [@ShingenTaguchi](https://twitter.com/ShingenTaguchi?ref_src=twsrc%5Etfw) [https://t.co/ApoLjeHC5T](https://t.co/ApoLjeHC5T)
-> 
-> — guchey | PdM兼マーケティングエンジニア at Ubie (@ShingenTaguchi) [May 16, 2025](https://twitter.com/ShingenTaguchi/status/1923209353265303663?ref_src=twsrc%5Etfw)
-
-  
-
-## いいなと思ったら応援しよう！
-
-MCPを使ってAIスクラムマスターを作ろう！｜田口 信元
+その第一歩として、今回ご紹介した「AIスクラムマスター」、ぜひあなたのチームでも試してみてはいかがでしょうか？きっと、チームの新しい可能性を引き出してくれるはずですよ。 

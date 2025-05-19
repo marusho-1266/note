@@ -1,15 +1,23 @@
 ---
 title: "ASP.NET Core MVCとは？基本的なしくみと開発プロセスをわかりやすく解説"
+author: "Learning Next Team"
 source: "https://learning-next.app/blog/backend-development/aspnet-core-mvc"
-author:
-  - "[[Learning Next Team]]"
 published: 2025-01-26
-created: 2025-05-16
-description: "ASP.NET Core MVCの基礎概念や実務での活用シーン、データベース連携を中心に解説します。初心者でも理解しやすいよう、具体的な例やコードを交えて紹介します。"
+created: 2024-05-16
 tags:
-  - "clippings #inbox"
+  - programming
+  - dotnet
+  - csharp
+  - webdev
+  - aspnet
+  - mvc
+  - framework
+  - tutorial
+  - article
+  - basic
 ---
-[C#](https://learning-next.app/blog?topic=csharp) [ASP.NET Core](https://learning-next.app/blog?topic=aspnet-core)
+
+# ASP.NET Core MVCとは？基本的なしくみと開発プロセスをわかりやすく解説
 
 ## はじめに
 
@@ -146,9 +154,4 @@ ASP.NET Coreの既定の設定だと、 `/Hello/Index` というURLにアクセ�
 
 実務での導入事例も多いため、ASP.NET Core MVCを覚えておくことは、今後のキャリアにおいても役立ちやすいと考えられます。 まずはプロジェクトを作成し、コントローラとビューを紐付けながら小さなアプリケーションを作ってみると良いでしょう。
 
-これをきっかけに、皆さんがASP.NET Core MVCの概要を把握し、実際に使ってみたいと思えるようになれば幸いです。
-
-### C#をマスターしよう
-
-この記事で学んだC#の知識をさらに伸ばしませんか？  
-Udemyには、現場ですぐ使えるスキルを身につけられる実践的な講座が揃っています。[バックエンド開発の新着記事をチェック](https://learning-next.app/blog/backend-development/backend-engineer-definition)
+これをきっかけに、皆さんがASP.NET Core MVCの概要を把握し、実際に使ってみたいと思えるようになれば幸いです。 

@@ -1,15 +1,18 @@
 ---
 title: "Cursorで要件定義がエラいスムーズになった話"
+author: "WdknWdkn"
 source: "https://qiita.com/WdknWdkn/items/7c130f2febfdf33b31a4"
-author:
-  - "[[Qiita]]"
 published: 2025-05-02
 created: 2025-05-15
-description: "AI搭載エディタCursorを色々と試しているのですが、これが非常に興味深いです。普段の開発業務はもちろん、少し工夫することで、要件定義のような上流工程も大幅に効率化できるのではないか？という気づ…"
 tags:
-  - "clippings #inbox"
+  - cursor
+  - ai-tools
+  - productivity
+  - article
+  - practical
 ---
-![](https://relay-dsp.ad-m.asia/dmp/sync/bizmatrix?pid=c3ed207b574cf11376&d=x18o8hduaj&uid=)
+
+# Cursorで要件定義がエラいスムーズになった話
 
 AI搭載エディタCursorを色々と試しているのですが、これが非常に興味深いです。  
 普段の開発業務はもちろん、少し工夫することで、 **要件定義のような上流工程も大幅に効率化できる** のではないか？という気づきがありました。
@@ -197,24 +200,4 @@ AIツールの進化に伴い、「エンジニアの仕事はAIに奪われる�
 - どのようなプロンプト（指示）を与えれば、AIは期待通りのパフォーマンスを発揮するか？
 - AIの生成結果をどのように解釈し、どう実務に適用するか？
 - AIと人間がどのように役割分担し、協業すれば、チームとしてのアウトプットを最大化できるか？  
-	といった、AIとの協業のあり方を考える上で、非常に示唆に富む経験となりました。  
-	エンジニアリングマネージャーとしても、こうした視点を持って技術活用の可能性を探求し続けることの重要性を再認識しています。  
-	今回は、Cursorを用いて要件定義プロセスを効率化する試みについてご紹介しました。  
-	まだ改善の余地はありますが、AIをうまく活用することで、日々の業務をよりスマートに、より創造的に進められる可能性を強く感じています。  
-	もし、皆さんの現場で「こんな風にAIを活用している」といった事例があれば、ぜひ情報交換させていただけると幸いです。  
-	ぜひ、皆さんもご自身の業務プロセスにAIを取り入れる可能性を探ってみてください。きっと面白い発見があるはずです。
-
-[2](https://qiita.com/WdknWdkn/items/#comments)
-
-新規登録して、もっと便利にQiitaを使ってみよう
-
-1. あなたにマッチした記事をお届けします
-2. 便利な情報をあとで効率的に読み返せます
-3. ダークテーマを利用できます
-[ログインすると使える機能について](https://help.qiita.com/ja/articles/qiita-login-user)
-
-[新規登録](https://qiita.com/signup?callback_action=login_or_signup&redirect_to=%2FWdknWdkn%2Fitems%2F7c130f2febfdf33b31a4&realm=qiita) [ログイン](https://qiita.com/login?callback_action=login_or_signup&redirect_to=%2FWdknWdkn%2Fitems%2F7c130f2febfdf33b31a4&realm=qiita)
-
-[557](https://qiita.com/WdknWdkn/items/7c130f2febfdf33b31a4/likers)
-
-541
+	といった、AIとの協業のあり方を考える上で、非常に示唆に富む経験となりました。 

@@ -1,14 +1,23 @@
 ---
 title: "ココピーからChatGPTを呼んで文章生成させる"
+author: "無駄と文化"
 source: "https://blog.mudatobunka.org/entry/2025/04/01/100000"
-author:
-  - "[[無駄と文化]]"
 published: 2025-04-01
-created: 2025-05-16
-description: "ココピー (cocopy) というブラウザ拡張機能がある。 chromewebstore.google.com Webページを見ていて URL やページタイトルなどをコピー＆ペーストしたくなったとき、ココピーを使うと思い思いの形式でクリップボードへのコピーができて便利だ。 ココピーについてはいろいろな人が紹介記事を書いているのでそれを読んでもらうのがいいと思う。 blog.pokutuna.com motemen.hatenablog.com ココピーは任意の JavaScript コードを実行できる ココピーは現在見ているページの URL・ページタイトル・コンテンツを JavaScript …"
+created: 2024-05-16
 tags:
-  - "clippings #inbox"
+  - programming
+  - api
+  - ai
+  - chatgpt
+  - javascript
+  - browser
+  - tool
+  - article
+  - practical
 ---
+
+# ココピーからChatGPTを呼んで文章生成させる
+
 ココピー (cocopy) というブラウザ拡張機能がある。
 
 [chromewebstore.google.com](https://chromewebstore.google.com/detail/cocopy/ihnfodlbkhgjnbheemjhkjfkfglgbdgc)
@@ -74,7 +83,7 @@ const article = Array.from(paragraphs)
 
 次は後処理、API からは JSON 形式で結果が返るのでパースしてから結果の部分だけ取り出す。
 
-```jsvascript
+```javascript
 return fetch(endpoint, {
   method: 'POST',
   headers: {
@@ -97,11 +106,7 @@ return fetch(endpoint, {
 
 まずはページ内容を要約した俳句を詠ませてみる。
 
-![](https://cdn-ak.f.st-hatena.com/images/fotolife/t/todays_mitsui/20250401/20250401094616.png)
-
 適当に洗濯のページを開く
-
-![](https://cdn-ak.f.st-hatena.com/images/fotolife/t/todays_mitsui/20250401/20250401094828.png)
 
 俳句ココピー実行！
 
@@ -116,8 +121,6 @@ return fetch(endpoint, {
 ### 3行まとめ
 
 ページをシェアするとき3行まとめがあると便利かも。
-
-![](https://cdn-ak.f.st-hatena.com/images/fotolife/t/todays_mitsui/20250401/20250401095230.png)
 
 3行まとめココピー実行！
 
@@ -139,8 +142,6 @@ https://lidea.today/articles/003999
 
 はてなブックマークのタグとコメントを生成させれば、まったく脳みそを使わずにブクマが完了する。
 
-![](https://cdn-ak.f.st-hatena.com/images/fotolife/t/todays_mitsui/20250401/20250401095543.png)
-
 ブクマココピー実行！
 
 結果
@@ -148,7 +149,6 @@ https://lidea.today/articles/003999
 ```
 [洗濯][家事][ライフスタイル] ドライコースの重要性がよく分かりました。お気に入りの服を守るために、洗濯表示を確認する癖がつきそうです。
 ```
-![](https://cdn-ak.f.st-hatena.com/images/fotolife/t/todays_mitsui/20250401/20250401095634.png)
 
 そのままブクマする
 
@@ -164,8 +164,4 @@ https://lidea.today/articles/003999
 
 ## まとめ
 
-遊んだ。楽しかった。
-
-私からは以上です。
-
-[« AIエージェントにコードを書かせてみた感…](https://blog.mudatobunka.org/entry/2025/04/07/100000) [はてなブログのグローバルヘッダーをダー… »](https://blog.mudatobunka.org/entry/2025/03/27/100000)
+遊んだ。楽しかった。 
