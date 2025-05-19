@@ -11,14 +11,12 @@
             "id": "64cafa722feca782",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "30_draft/MVCモデル完全解説：基本から応用までの全知識.md",
-                "mode": "source",
-                "source": false
+                "file": "30_draft/mvc_basic_structure.svg"
               },
-              "icon": "lucide-file",
-              "title": "MVCモデル完全解説：基本から応用までの全知識"
+              "icon": "lucide-image",
+              "title": "mvc_basic_structure"
             }
           }
         ]
@@ -170,9 +168,20 @@
   },
   "active": "64cafa722feca782",
   "lastOpenFiles": [
+    "00_Inbox_Clip/MCPを使ってAIスクラムマスターを作ろう！｜田口 信元.md",
+    "00_Inbox_Clip/Python×株式投資：月利3〜5%を狙う自動スクリーニング戦略.md",
+    "00_Inbox_Clip/OpenAI Codexとその活用法の徹底解説.md",
+    "00_Inbox_Clip/AIお任せでプログラム開発。ChatGPTの新機能｢Codex｣を試してみた.md",
+    "30_draft/MVCモデル完全解説：基本から応用までの全知識.md",
+    "00_Inbox_Clip/Google Apps Script用のテストライブラリ「GASUnit」の紹介 1.md",
+    "00_Inbox_Clip/Google Apps Script用のテストライブラリ「GASUnit」の紹介.md",
+    "00_Inbox_Clip/GitHub Actionsって何？触ってみて理解しよう！入門・逆引きリファレンス.md",
+    "00_Inbox_Clip/ソフトウェアテスト技法とは  主な技法の種類や特徴について解説.md",
+    "00_Inbox_Clip/テストの種類と技法.md",
+    "00_Inbox_Clip/ココピーからChatGPTを呼んで文章生成させる.md",
+    "00_Inbox_Clip/CursorにPMBOKやDMBOKを叩き込んで、専門業務を爆速化する未来、見えた！.md",
     "mvc_basic_structure.svg",
     "30_draft/mvc_basic_structure.svg",
-    "30_draft/MVCモデル完全解説：基本から応用までの全知識.md",
     "30_draft/2025-05-16_10h43_31.png",
     "30_draft/2025-05-16_10h41_15.png",
     "30_draft/2025-05-16_10h38_08.png",
@@ -195,16 +204,6 @@
     "100_cursor/tag_assignment_prompt.md",
     "100_cursor",
     "100",
-    "00_Inbox_Clip/MVCの本当のメリットは何か？.md",
-    "00_Inbox_Clip/【解説】MVCモデルとは？メリット・デメリット.md",
-    "00_Inbox_Clip/「Notion AI for Work」発表　AI強化で文字起こし・横断検索・リサーチ.md",
-    "00_Inbox_Clip/ASP.NET Core MVCとは？基本的なしくみと開発プロセスをわかりやすく解説.md",
-    "00_Inbox_Clip/ASP.NET(C) MVCモデル入門～Hello Worldを表示しよう.md",
-    "00_Inbox_Clip/C MVCアーキテクチャにおけるサービス層の活用法：設計から実装、ベストプラクティスまで.md",
-    "00_Inbox_Clip/ASP.NET MVC(Frameworkの方) 簡単な開発の流れ.md",
-    "00_Inbox_Clip/個人用備忘録：MVCモデルとは？その基本構造と役割をわかりやすく整理してみた.md",
-    "00_Inbox_Clip/MVCモデルとは？役割やメリット・デメリットを分かりやすく解説！  GeeklyMedia(ギークリーメディア)  Geekly（ギークリー） IT・Web・ゲーム業界専門の人材紹介会社.md",
-    "00_Inbox_Clip/超初心者講座～MVCモデルについて～.md",
     "50_contribution",
     "40_editing",
     "30_draft",
