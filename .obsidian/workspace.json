@@ -11,12 +11,14 @@
             "id": "64cafa722feca782",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "30_draft/mvc_basic_structure.svg"
+                "file": "00_Inbox/Clip/Obsidian Web Clipperでの画像ローカル保存方法.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "mvc_basic_structure"
+              "icon": "lucide-file",
+              "title": "Obsidian Web Clipperでの画像ローカル保存方法"
             }
           }
         ]
@@ -168,6 +170,16 @@
   },
   "active": "64cafa722feca782",
   "lastOpenFiles": [
+    "00_Inbox_Clip/webアクセシビリティ、デザイン面での最初の難題「緑オレンジ問題」を考える｜加藤朋義.md",
+    "00_Inbox/Clip/Obsidian Web Clipperでの画像ローカル保存方法.md",
+    "00_Inbox/Clip",
+    "00_Inbox",
+    "inbox.md",
+    "inbox",
+    "00_Inbox_Clip/28歳エンジニアがリーダー　“爆速”で作った「AIワークフロー」がスゴイ.md",
+    "00_Inbox_Clip/大規模コードベースをAIの業務知識に！作ってわかったMCPサーバー使いこなし術.md",
+    "00_Inbox_Clip/【Qiitaでも使えるよ】PWAって何.md",
+    "30_draft/mvc_basic_structure.svg",
     "00_Inbox_Clip/MCPを使ってAIスクラムマスターを作ろう！｜田口 信元.md",
     "00_Inbox_Clip/Python×株式投資：月利3〜5%を狙う自動スクリーニング戦略.md",
     "00_Inbox_Clip/OpenAI Codexとその活用法の徹底解説.md",
@@ -181,7 +193,6 @@
     "00_Inbox_Clip/ココピーからChatGPTを呼んで文章生成させる.md",
     "00_Inbox_Clip/CursorにPMBOKやDMBOKを叩き込んで、専門業務を爆速化する未来、見えた！.md",
     "mvc_basic_structure.svg",
-    "30_draft/mvc_basic_structure.svg",
     "30_draft/2025-05-16_10h43_31.png",
     "30_draft/2025-05-16_10h41_15.png",
     "30_draft/2025-05-16_10h38_08.png",
@@ -195,13 +206,7 @@
     "20_Stock/MVCモデルの基本と実践.md",
     "20_Stock/Cシャープ_MVCでのサービス層実装.md",
     "00_Inbox_Clip/MVC、本当にわかってますか？.md",
-    "20_Stock/超初心者向けMVCモデル解説.md",
-    "100_cursor/Workflow.md",
     "100_cursor/w",
-    "100_cursor/tag_verification_prompt.md",
-    "100_cursor/tag_rule.md",
-    "100_cursor/tag_batch_processing.md",
-    "100_cursor/tag_assignment_prompt.md",
     "100_cursor",
     "100",
     "50_contribution",
@@ -209,9 +214,6 @@
     "30_draft",
     "20_Stock",
     "無題のファイル.canvas",
-    "無題のファイル 1.canvas",
-    "@01_Stock",
-    "-p",
-    "tag_rule"
+    "無題のファイル 1.canvas"
   ]
 }
