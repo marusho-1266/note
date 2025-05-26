@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_Inbox/Clip/Obsidian Web Clipperでの画像ローカル保存方法.md",
+                "file": "00_Inbox/Clip/GitHub、複数アカウントをターミナルでで切り替える方法（Mac,zsh).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian Web Clipperでの画像ローカル保存方法"
+              "title": "GitHub、複数アカウントをターミナルでで切り替える方法（Mac,zsh)"
             }
           }
         ]
@@ -170,6 +170,17 @@
   },
   "active": "64cafa722feca782",
   "lastOpenFiles": [
+    "00_Inbox/Clip/複数のGitHubアカウントを使い分けたい時の設定方法とTips.md",
+    "00_Inbox/Clip/GitHub、複数アカウントをターミナルでで切り替える方法（Mac,zsh).md",
+    "00_Inbox/ドメインについて.md",
+    "00_Inbox/Clip/読みやすい「BIZ UD」を帳票向けにカスタマイズした「帳票 UDPゴシック」フォントが公開／明朝体バージョンの「帳票 UDP明朝」もあり.md",
+    "00_Inbox/Clip/同じPCでGitHubのアカウントを複数利用して切り替える方法.md",
+    "00_Inbox/Clip/同じPCでGitHubのアカウントを複数利用して切り替える方法 1.md",
+    "00_Inbox_Clip/同じPCでGitHubのアカウントを複数利用して切り替える方法.md",
+    "00_Inbox/Clip/CSSで画面が崩れたときに最初に見るべきチェックリスト.md",
+    "00_Inbox/Clip/どんなインプットも読みやすいHTML+CSSのレポートにするプロンプト文.md",
+    "00_Inbox/Clip/ソフトウェア品質特性、意識してますか？AIの真の力を引き出す活用事例  ai-and-software-quality.md",
+    "00_Inbox_Clip",
     "00_Inbox_Clip/webアクセシビリティ、デザイン面での最初の難題「緑オレンジ問題」を考える｜加藤朋義.md",
     "00_Inbox/Clip/Obsidian Web Clipperでの画像ローカル保存方法.md",
     "00_Inbox/Clip",
@@ -190,29 +201,18 @@
     "00_Inbox_Clip/GitHub Actionsって何？触ってみて理解しよう！入門・逆引きリファレンス.md",
     "00_Inbox_Clip/ソフトウェアテスト技法とは  主な技法の種類や特徴について解説.md",
     "00_Inbox_Clip/テストの種類と技法.md",
-    "00_Inbox_Clip/ココピーからChatGPTを呼んで文章生成させる.md",
-    "00_Inbox_Clip/CursorにPMBOKやDMBOKを叩き込んで、専門業務を爆速化する未来、見えた！.md",
     "mvc_basic_structure.svg",
     "30_draft/2025-05-16_10h43_31.png",
     "30_draft/2025-05-16_10h41_15.png",
     "30_draft/2025-05-16_10h38_08.png",
     "30_draft/mvc_with_service_layer.svg",
     "30_draft/mvc_flow_diagram.svg",
-    "画像URL.md",
-    "20_Stock/MVCの本質的メリット分析.md",
-    "100_cursor/prompt.md",
-    "20_Stock/MVCモデルのメリットとデメリット解説.md",
-    "20_Stock/MVCの歴史と実装パターン分析.md",
-    "20_Stock/MVCモデルの基本と実践.md",
-    "20_Stock/Cシャープ_MVCでのサービス層実装.md",
-    "00_Inbox_Clip/MVC、本当にわかってますか？.md",
     "100_cursor/w",
     "100_cursor",
     "100",
     "50_contribution",
     "40_editing",
     "30_draft",
-    "20_Stock",
     "無題のファイル.canvas",
     "無題のファイル 1.canvas"
   ]
