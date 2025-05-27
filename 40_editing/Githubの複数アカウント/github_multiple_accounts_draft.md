@@ -18,7 +18,8 @@ Gitは同一PCで複数アカウントを扱うことを考慮されていない
 
  上記のどちらかが必要となってくるという事になる。
 
- 結論としては1.で対応をするようになるで、これ以降はその手順の説明。
+ 結論としては1.で対応をするようになる。
+ これ以降はその手順の説明。
 
 ## 設定方法：SSHキーとconfigファイルを使う
 
@@ -78,14 +79,14 @@ GitHubのSettings > SSH and GPG keys から "New SSH key" で追加できる。
 
 ```bash
 $ git clone git@github-personal:yourname/your-personal-repo.git # 個人用アカウントでクローン
-$ git clone git@github-company:yourorg/your-company-repo.git # 仕事用アカウントでクローン
+$ git clone git@github-work:yourorg/your-work-repo.git # 仕事用アカウントでクローン
 ```
 
 **既存のリポジトリにリモートを追加する場合:**
 
 ```bash
 $ git remote add origin git@github-personal:yourname/your-personal-repo.git # 個人用アカウントのリモートを追加
-$ git remote add origin git@github-company:yourorg/your-company-repo.git # 会社用アカウントのリモートを追加
+$ git remote add origin git@github-work:yourorg/your-work-repo.git # 仕事用アカウントのリモートを追加
 ```
 
 ## 設定方法：Git Configを使う
@@ -116,7 +117,7 @@ function git_personal() {
 }
 
 # 仕事用アカウントに切り替え
-function git_company() {
+function git_work() {
   git config --global user.name "[仕事用アカウント名]"
   git config --global user.email "[仕事用アカウントのメールアドレス]"
   echo "Switched to Work Account"
@@ -130,20 +131,20 @@ function git_company() {
 
 `~/.gitconfig` に `[includeIf]` ディレクティブを使うと、特定のディレクトリにいる場合に別の設定ファイルを読み込むことができる。
 
-まず、各アカウント用の設定ファイルを作成する (例: `~/.gitconfig_personal`, `~/.gitconfig_company`)。
+まず、各アカウント用の設定ファイルを作成する (例: `~/.gitconfig_personal`, `~/.gitconfig_work`)。
 
 `~/.gitconfig_personal` の内容:
 ```ini
 [user]
-  name = [個人アカウント名]
-  email = [個人アカウントのメールアドレス]
+  name = [個人用アカウント名]
+  email = [個人用アカウントのメールアドレス]
 ```
 
-`~/.gitconfig_company` の内容:
+`~/.gitconfig_work` の内容:
 ```ini
 [user]
-  name = [会社アカウント名]
-  email = [会社アカウントのメールアドレス]
+  name = [仕事用アカウント名]
+  email = [仕事用アカウントのメールアドレス]
 ```
 
 次に、`~/.gitconfig` ファイルに以下の設定を追加する。
@@ -153,14 +154,14 @@ function git_company() {
   name = [デフォルトのアカウント名]
   email = [デフォルトのアカウントのメールアドレス]
 
-[includeIf "gitdir:~/path/to/your-personal-projects/"] # 個人プロジェクトのディレクトリパスを指定
+[includeIf "gitdir:~/path/to/your-personal-projects/"] # 個人用プロジェクトのディレクトリパスを指定
   path = ~/.gitconfig_personal
 
-[includeIf "gitdir:~/path/to/your-company-projects/"] # 会社プロジェクトのディレクトリパスを指定
-  path = ~/.gitconfig_company
+[includeIf "gitdir:~/path/to/your-work-projects/"] # 仕事用プロジェクトのディレクトリパスを指定
+  path = ~/.gitconfig_work
 ```
 
-これで、指定したディレクトリに移動するだけでGitの設定が自動的に切り替わるようになるとの事。
+これで、指定したディレクトリに移動するだけでGitの設定が自動的に切り替わるようになる。
 
 ## まとめ
 
