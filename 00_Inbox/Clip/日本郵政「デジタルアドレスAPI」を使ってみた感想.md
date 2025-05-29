@@ -1,0 +1,237 @@
+---
+title: "日本郵政「デジタルアドレスAPI」を使ってみた感想"
+source: "https://qiita.com/sotalikefn/items/dfce603f474a941ae3e1"
+author:
+  - "[[sotalikefn]]"
+published: 2025-05-27
+created: 2025-05-28
+description: "はじめに2025年5月26日、日本郵政が新しいサービス「デジタルアドレス」を開始しました。エンジニア泣かせな日本の住所表記を英数字7桁で表現することができ、表記ブレを無くすことができる画期的な取…"
+tags:
+  - "clippings #inbox"
+---
+![](https://relay-dsp.ad-m.asia/dmp/sync/bizmatrix?pid=c3ed207b574cf11376&d=x18o8hduaj&uid=)
+
+## はじめに
+
+2025年5月26日、日本郵政が新しいサービス「 [デジタルアドレス](https://lp.da.pf.japanpost.jp/) 」を開始しました。  
+エンジニア泣かせな日本の住所表記を英数字7桁で表現することができ、 ~~表記ブレを無くすことができる~~ 画期的な取り組みです。  
+同時に「 [郵便番号・デジタルアドレスAPI](https://lp-api.da.pf.japanpost.jp/) 」もリリースされました。
+
+※ 結局一般ユーザがどういう住所でデジタルアドレス利用登録をするか次第なので、表記ブレは無くなりませんね😂
+
+このAPIを使ってみた感想と利用方法について紹介します。
+
+## デジタルアドレスとは
+
+デジタルアドレスは、日本郵政が提供する新しい住所表現システムです。例えば「東京都千代田区丸の内2丁目7-2部屋番号サンプル1」という長い住所を、「A7E2FK2」という7桁の英数字で表現できます。
+
+## 主な特徴
+
+- **7桁英数字** ：覚えやすく、入力しやすい
+- **無料取得** ：ゆうIDとの連携で無料で取得可能
+- **継続利用** ：引越し後も同じアドレスを継続使用可能
+- **詳細住所対応** ：部屋番号まで含む詳細な住所情報
+
+## デジタルアドレスを実際に使ってみた感想
+
+## 取得プロセス
+
+ゆうIDを持っていれば、専用サイトから申請するだけです。  
+申請後、数分で7桁のデジタルアドレスが発行されました。
+
+## 利便性
+
+最も感じたのは、住所入力の時短効果です。  
+特に郵便局アプリでの送り状作成では、デジタルアドレスを入力するだけで、部屋番号まで含む完全な住所が自動入力されます。  
+これまで何度も入力していた長い住所を、7文字で済ませられるのは革新的です。
+
+## 現時点での制限
+
+ただし、現時点では制限もあります：
+
+- **認知度の低さ** ：サービス開始直後で、まだ広く知られていない
+- **対応サービスの少なさ** ：まだ対応しているサービスが限られている
+- **郵便物送付の制限** ：デジタルアドレスのみでは郵便物を送れず、そこから照合した郵便番号、住所、氏名が必要です。
+
+## 郵便番号・デジタルアドレスAPI
+
+デジタルアドレスは [郵便番号・デジタルアドレスAPI](https://lp-api.da.pf.japanpost.jp/) 経由で郵便番号や住所に変換することが可能です。
+
+## 利用条件
+
+**重要：API利用は法人・個人事業主限定です。**
+
+- 「 [郵便番号・デジタルアドレス for Biz](https://guide-biz.da.pf.japanpost.jp/) 」への登録が必要
+- 法人番号などの事業者情報が必要
+
+## 事前準備
+
+API利用前に以下の設定が必要です：
+
+### 組織登録：事業者としての登録
+
+- 管理画面から「組織登録」を選択
+- 必要事項を入力（法人番号、会社名など）
+
+[![法人登録画面](https://i.gyazo.com/9cc578502e45ba095c283202e69a4b8b.png)](https://qiita-user-contents.imgix.net/https%3A%2F%2Fi.gyazo.com%2F9cc578502e45ba095c283202e69a4b8b.png?ixlib=rb-4.0.0&auto=format&gif-q=60&q=75&s=07ab858ff156a5844746305be21e1154)
+
+### システムリスト登録：管理画面で以下を設定
+
+- システム名
+- URL（アクセス元ドメイン）
+- IPアドレス（最大10件）
+
+[![システムリスト登録画面](https://i.gyazo.com/c4ae54b56d0635b08a56fff2974439b5.png)](https://qiita-user-contents.imgix.net/https%3A%2F%2Fi.gyazo.com%2Fc4ae54b56d0635b08a56fff2974439b5.png?ixlib=rb-4.0.0&auto=format&gif-q=60&q=75&s=11aacc5de8396622b86fe2cb43404a81)
+
+システムリストの設定は管理者権限のみ可能で、一般ユーザは設定できません。
+
+## 技術的制限
+
+### CORS制限
+
+**対処法** ：
+
+- バックエンド（PHP、Node.js等）でプロキシAPIを作成
+- サーバーサイドでAPIを呼び出し、結果をフロントエンドに返す
+
+フロントエンドでも呼び出せるようにCORS対応版クライアントAPIを開発された方がいらっしゃいます。  
+[CORS対応版 郵便番号・デジタルアドレスAPIを開発しました digital-address.app ゆうID不要](https://qiita.com/relu/items/9b8085e89c01bcf6d35a)
+
+## API利用手順
+
+API利用は2段階のプロセスです：
+
+### 1\. トークン取得
+
+### 2\. 住所検索
+
+## レスポンス例
+
+### トークン取得レスポンス
+
+```json
+{
+  "token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9...",
+  "token_type": "jwt",
+  "expires_in": 600,
+  "scope": "J1"
+}
+```
+
+- トークンの有効期限は600秒（10分）
+- JWT形式で619文字程度の長い文字列
+
+### 住所検索レスポンス
+
+```json
+{
+  "addresses": [{
+    "dgacode": "A7E2FK2",
+    "zip_code": "1000005",
+    "pref_name": "東京都",
+    "city_name": "千代田区",
+    "town_name": "丸の内",
+    "block_name": "二丁目７－２",
+    "other_name": "サンプル１",
+    "address": "東京都千代田区丸の内二丁目７－２サンプル１"
+  }]
+}
+```
+
+部屋番号まで含む詳細な住所情報が取得できます。
+
+## 実運用での課題
+
+## 権限管理の問題：組織は誰が作る？
+
+APIの利用は無料なので代理で組織を作っても良いが、事業者番号の入力も必要なことや、ゆうIDとの連携が必要になるため、クライアントに作ってもらう方がベター。  
+↓  
+組織へのユーザ招待機能はあるものの、システムリストの追加やユーザ招待は管理者権限が必要。  
+↓  
+クライアントにシステムリストを登録してもらうことになる。  
+↓  
+IPアドレスの登録もあるので嫌がられがち。  
+↓  
+↓  
+↓  
+現場レベルでは開発者権限でシステムリストの増減くらいはさせてほしい。
+
+## セキュリティ面の懸念
+
+- **総当たり攻撃** ：7桁という短さから、総当たり攻撃の可能性
+- **匿名性の課題** ：デジタルアドレスから住所が検索可能なため、匿名配送には不向き
+- **対策の限界** ：現在の対策は利用規約レベルに留まっている
+
+## 今後の展望
+
+## 普及への期待
+
+- **大手企業の導入** ： [楽天やGMOなどが導入を検討中](https://www.nikkei.com/article/DGKKZO88914900W5A520C2MM8000/)
+- **多様な活用場面** ： [タクシーやカーナビでの利用可能性](https://www.asahi.com/articles/AST5V1TFZT5VULFA00RM.html?iref=comtop_BreakingNews_list)
+- **社会インフラ化** ： [10年構想での社会基盤としての位置づけ](https://www.watch.impress.co.jp/docs/news/2017226.html)
+
+## 改善への期待
+
+- **個人開発者向けプラン** ：現在は法人限定だが、個人向けプランの提供
+- **権限管理の改善** ：開発者権限の実装
+
+## 他サービスとの比較
+
+海外には類似サービス（What3Wordsなど）がありますが、日本郵政のデジタルアドレスは以下の特徴があります：
+
+- **公的機関による運営** ：信頼性の高さ
+- **既存インフラとの連携** ：郵便システムとの統合
+- **日本独自の住所体系** ：日本の住所表記に最適化
+
+## まとめ
+
+デジタルアドレスは、住所入力の手間を大幅に削減する画期的なサービスです。現時点では制限や課題もありますが、将来的な可能性は非常に大きいと感じました。
+
+特に開発者にとっては、API経由での住所検索機能は魅力的です。ただし、法人限定という制限や権限管理の課題があるため、これらの改善が普及の鍵となるでしょう。
+
+サービス開始直後ということもあり、今後の発展と改善に期待したいと思います。住所という日常的な情報がデジタル化されることで、私たちの生活がより便利になる日が近づいているのかもしれません。
+
+---
+
+## 参考資料
+
+- [日本郵便公式プレスリリース](https://www.post.japanpost.jp/notification/pressrelease/2025/00_honsha/0526_01.html)
+- [デジタルアドレス公式サイト](https://lp.da.pf.japanpost.jp/)
+- [郵便番号・デジタルアドレス for Biz](https://guide-biz.da.pf.japanpost.jp/)
+- [郵便番号・デジタルアドレスAPI](https://guide-biz.da.pf.japanpost.jp/api/)
+
+*この記事は2025年5月27日時点の情報に基づいています。サービス内容は今後変更される可能性があります。*
+
+[0](https://qiita.com/sotalikefn/items/#comments)
+
+コメント一覧へ移動
+
+新規登録して、もっと便利にQiitaを使ってみよう
+
+1. あなたにマッチした記事をお届けします
+2. 便利な情報をあとで効率的に読み返せます
+3. ダークテーマを利用できます
+[ログインすると使える機能について](https://help.qiita.com/ja/articles/qiita-login-user)
+
+[新規登録](https://qiita.com/signup?callback_action=login_or_signup&redirect_to=%2Fsotalikefn%2Fitems%2Fdfce603f474a941ae3e1&realm=qiita) [ログイン](https://qiita.com/login?callback_action=login_or_signup&redirect_to=%2Fsotalikefn%2Fitems%2Fdfce603f474a941ae3e1&realm=qiita)
+
+[![sotalikefn](https://qiita-user-profile-images.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F120065%2Fprofile-images%2F1721096443?ixlib=rb-4.0.0&auto=compress%2Cformat&lossless=0&w=128&s=907d844c0ee77dcdeb47b33ea5adc3b5)](https://qiita.com/sotalikefn)
+
+[
+
+## @sotalikefn(Shoki Ota)
+
+](https://qiita.com/sotalikefn)
+
+[RSS](https://qiita.com/sotalikefn/feed)
+
+この記事は以下の記事からリンクされています
+
+- [Qiita 週間いいね数ランキング【自動更新】](https://qiita.com/koki_develop/items/b6cfc81906990b3a3e72) からリンク
+- [Qiita デイリーいいね数ランキング【自動更新】](https://qiita.com/koki_develop/items/fa223e1fa0ab057a54bc) からリンク
+
+[20](https://qiita.com/sotalikefn/items/dfce603f474a941ae3e1/likers)
+
+いいねしたユーザー一覧へ移動
+
+16
