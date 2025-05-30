@@ -7,7 +7,10 @@ published:
 created: 2025-05-27
 description: "<p>警察や消防に連絡をするので気軽に使える機能ではありませんが、身の安全を守る必要のある緊急の場合には役に立つ機能ですね。</p><p>今回はこの緊急SOSについて説明いたします。</p>"
 tags:
-  - "clippings #inbox"
+  - clippings
+  - ios
+  - safety
+  - tutorial
 ---
 ## 【iPhoneのお役立ち情報】緊急SOSとは？
 

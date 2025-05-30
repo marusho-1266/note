@@ -7,7 +7,11 @@ published: 2025-05-27
 created: 2025-05-28
 description: "はじめに2025年5月26日、日本郵政が新しいサービス「デジタルアドレス」を開始しました。エンジニア泣かせな日本の住所表記を英数字7桁で表現することができ、表記ブレを無くすことができる画期的な取…"
 tags:
-  - "clippings #inbox"
+  - clippings
+  - api
+  - postal
+  - impression
+  - news
 ---
 ![](https://relay-dsp.ad-m.asia/dmp/sync/bizmatrix?pid=c3ed207b574cf11376&d=x18o8hduaj&uid=)
 

@@ -7,7 +7,11 @@ published: 2025-05-26
 created: 2025-05-28
 description: "ソースコードを公開しました！ご自身で開発したい方向けhttps://github.com/GitHub30/digital-address.php本記事では、日本郵便公式の「郵便番号・デジタル…"
 tags:
-  - "clippings #inbox"
+  - clippings
+  - api
+  - webdev
+  - tutorial
+  - news
 ---
 ![](https://relay-dsp.ad-m.asia/dmp/sync/bizmatrix?pid=c3ed207b574cf11376&d=x18o8hduaj&uid=)
 

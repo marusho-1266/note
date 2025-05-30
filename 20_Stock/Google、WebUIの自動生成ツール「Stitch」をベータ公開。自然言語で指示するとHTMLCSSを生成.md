@@ -6,7 +6,11 @@ published:
 created: 2025-05-29
 description: "Googleは日本時間5月21日未明に開幕した年次イベント「Google I/O 2025」で、自然言語で指示を入力すると自動的にWeb UIを生成するツール「Stitch」のベータ公開を発表しました。 StitchはもともとGalileo..."
 tags:
-  - "clippings #inbox"
+  - clippings
+  - ai
+  - webdev
+  - news
+  - tool
 ---
 2025年5月22日
 

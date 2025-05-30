@@ -7,7 +7,11 @@ published:
 created: 2025-05-27
 description: "iPhoneに搭載されている「緊急SOS」機能は、緊急時に緊急通報サービスに電話をかけたり、登録した緊急連絡先に自動的に発信したりすることができる機能です。また、大音量でアラームを鳴らす事もできるなど、万が一の時に知っておくと役に立つ機能です。当記事ではそんな緊急SOS機能について詳しく解説します。"
 tags:
-  - "clippings #inbox"
+  - clippings
+  - ios
+  - safety
+  - tutorial
+  - article
 ---
 ## iPhoneの緊急SOSはどこに繋がる？緊急通報を正しく使う方法
 
