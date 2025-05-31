@@ -42,7 +42,7 @@ git stash pop
 
 ### Git Worktreeによる解決
 
-Git Worktreeを使えば、これらの問題を一気に解決できる：
+Git Worktreeを使えば、これらの問題を解決できる：
 
 ```bash
 # hotfix用のワークツリーを別ディレクトリに作成
@@ -88,23 +88,34 @@ myproject-hotfix/
 
 ## 基本的な使い方
 
+なにはともあれ、実際にやってみないと分からないので、作ってみる。
+個人で個人的に作成した日報ツールがあるのでそれで実験。
+
+### 0. 事前準備
+ブランチを作成し、未コミット状態のファイルを作っておく。
+この状態でmainブランチに切り替えると。
+
+画像１貼り付け
+
+このようにエラーが発生する。
+本来なら、ここから**git stash**や**git commit**を行う。
+
 ### 1. ワークツリーの作成
+
+ワークツリーは以下のコマンドで作成できる
 
 ```bash
 # 既存ブランチをワークツリーに追加
 git worktree add <パス> <ブランチ名>
 
-# 例：developブランチを別ディレクトリに展開
-git worktree add ../myproject-develop develop
 ```
 
-```bash
-# 新しいブランチを作成してワークツリーに追加
-git worktree add -b <新ブランチ名> <パス> <ベースブランチ>
+実際に作成してみる。
 
-# 例：mainから新機能ブランチを作成
-git worktree add -b feature-user-auth ../auth-feature main
-```
+画像２貼り付け
+
+出来たっぽい。
+
 
 ### 2. ワークツリーの確認
 
@@ -119,7 +130,41 @@ git worktree list
 /Users/user/auth-feature          i7j8k9l [feature-user-auth]
 ```
 
+実行前のローカルリポジトリ
+画像３貼り付け
+
+実行後のローカルリポジトリ
+画像４貼り付け
+
+新しくフォルダが作成された。
+
+
+作成されたフォルダの中を見ると、確かにmainブランチの内容になっている。
+
+画像５貼り付け
+
+今回はローカルリポジトリ内に作ってしまったので変なフォルダ構成になってしまったが、実際に使う時は作業中のリポジトリと異なる場所に作成すれば問題無いと思われる。
+
+
+ちなみにこのWorktreeだが、Cursorだと便利に切り替えれる機能が存在している。
+
+Cursorの拡張機能から「Git Worktree Manager」と検索すると、以下のようなツールが表示されるので、これをインストールする。
+
+画像６貼り付け
+
+
+これを利用すると、このようにワークツリーが一覧形式で表示される。
+
+画像７貼り付け
+
+例えばこのmainを選択すると、新しいウィンドウでワークツリーが開かれるので、スムーズに別作業に取り掛かれる。
+
+画像８貼り付け
+
+
 ### 3. ワークツリーの削除
+
+作業が終わったワークツリーについては、以下のコマンドで削除が可能となっている。
 
 ```bash
 # ディレクトリごと削除
@@ -199,25 +244,11 @@ git worktree add -b feature-analytics ../analytics-feature main
 # analytics-feature/  (feature-analyticsブランチ)
 ```
 
-## freee社での活用事例
 
-実際の企業での活用例として、freee社のエンジニアブログから以下のような使い方が紹介されている：
+最近はAIエージェントで並列開発を行う事が多いらしく、その中でGit worktreeが注目されているとの事。
+参考↓  
+[AIエージェントで並列実装なら必須技術！ Git Worktree を理解する](https://zenn.dev/siu_issiki/articles/git_worktree)
 
-### multirepoでの効率的な管理
-
-複数リポジトリを横断する開発において、以下のようなディレクトリ構成で管理：
-
-```
-feature-branch-1/
-├── repo-a/
-├── repo-b/
-└── repo-c/
-```
-
-このように統一されたブランチ名でワークツリーを管理することで：
-- 隣り合うディレクトリのブランチが統一される
-- 開発しやすい環境が構築できる
-- 自動化スクリプトでの管理も容易
 
 ### プルリクレビューの効率化フロー
 
@@ -235,37 +266,6 @@ cd ../
 rm -rf pr-238
 git worktree prune
 git branch -D pr-238
-```
-
-## 便利なTipsと自動化
-
-### 1. bashrcでの関数定義
-
-```bash
-# .bashrcに追加
-function gwt() {
-    GIT_CDUP_DIR=`git rev-parse --show-cdup`
-    git worktree add ${GIT_CDUP_DIR}git-worktrees/$1 -b $1
-}
-
-# .gitignoreに追加
-git-worktrees/*
-
-# 使用例
-gwt feature-new-ui  # git-worktrees/feature-new-ui に新ブランチを作成
-```
-
-### 2. ワークツリー管理の自動化
-
-```bash
-# 削除されたremoteブランチに対応するワークツリーをクリーンアップ
-git branch -vv | grep ': gone]' | awk '{print $1}' | while read branch; do
-    worktree_path=$(git worktree list | grep "[$branch]" | awk '{print $1}')
-    if [ ! -z "$worktree_path" ]; then
-        git worktree remove "$worktree_path"
-    fi
-    git branch -D "$branch"
-done
 ```
 
 ## 注意点とベストプラクティス
@@ -317,6 +317,9 @@ mv node_modules.bak node_modules
 # .envファイルをワークツリーにコピー
 cp .env ../feature-worktree/.env
 ```
+
+
+## クローンとの違い
 
 ## まとめ
 
